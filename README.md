@@ -53,6 +53,9 @@ library(glue)
 start_date <- "2010-06-07"
 end_date <- "2010-06-14"
 
+# Load data
+data(sp500)
+
 # Create a gt table based on preprocessed
 # `sp500` table data
 sp500 %>%
